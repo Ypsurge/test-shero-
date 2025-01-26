@@ -1,0 +1,33 @@
+body{
+    margin: 0 auto;
+}
+
+.background{
+    background-image: url(/images-top/section1/__after.png);
+    background-size: 100%;
+    margin-bottom: 20px;
+}
+
+.title{
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.2fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    height: 800px;   
+    margin-bottom: 20px;
+}
+
+.title-text{
+    display: flex;
+    align-items: last baseline;
+    justify-content: flex-end;
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.button{
+    grid-area: 2 / 2 / 2 / 3;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+    
+}

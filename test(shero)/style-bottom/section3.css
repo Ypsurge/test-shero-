@@ -1,0 +1,15 @@
+.carousel-title{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.carousel-images{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.carousel-image>img{
+    width: 30vh;
+    height: 30vh;
+}
